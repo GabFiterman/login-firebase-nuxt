@@ -1,11 +1,6 @@
 <template>
     <div id="Breadcrumbs">
         <nuxt-link to="/">Home</nuxt-link>
-        <v-breadcrumbs :items="items">
-            <template v-slot:divider>
-                <v-icon>mdi-chevron-right</v-icon>
-            </template>
-        </v-breadcrumbs>
     </div>
 </template>
 
