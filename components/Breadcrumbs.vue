@@ -1,6 +1,8 @@
 <template>
     <div id="Breadcrumbs">
         <nuxt-link to="/">Home</nuxt-link>
+        <nuxt-link to="/login">Login</nuxt-link>
+        <nuxt-link to="/secret">Secret</nuxt-link>
     </div>
 </template>
 
@@ -24,7 +26,8 @@ a{
     font-size: 1.5rem;
     font-weight: bold;
     text-decoration: none;
-    transition: all 0.5s;
+    transition: all 0.25s;
+    margin: 1rem 2.5rem;
 }
 
 a:hover{
