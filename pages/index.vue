@@ -6,10 +6,13 @@
   -->
   <div id="main__body">
     <h1 class="main__title">Login com Firebase</h1>
-    <Card upper-tag="Login com Firebase" title="Google UI"
-      subtitle="Aqui é implementado o Firebase utilizando o UI da google (FirebaseUI)" button-text="Ir para login" />
-
-
+    <Card 
+      upper-tag="Login com Firebase" 
+      title="Google UI"
+      subtitle="Aqui é implementado o Firebase utilizando o UI da google (FirebaseUI)" 
+      button-text="Ir para login"
+      button-route="/"
+    />
   </div>
 </template>
 

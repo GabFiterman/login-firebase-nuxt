@@ -1,5 +1,6 @@
 <template>
     <div id="Breadcrumbs">
+        <nuxt-link to="/">Home</nuxt-link>
         <v-breadcrumbs :items="items">
             <template v-slot:divider>
                 <v-icon>mdi-chevron-right</v-icon>
@@ -16,7 +17,23 @@ name: "Breadcrumbs"
 
 <style scoped>
 #Breadcrumbs{
-    background-color: lightslategray;
+    background-color:chocolate;
     min-height: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a{
+    color:white;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-decoration: none;
+    transition: all 0.5s;
+}
+
+a:hover{
+    border-bottom: 2px black solid;
+    color:black;
 }
 </style>

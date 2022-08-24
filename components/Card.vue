@@ -24,7 +24,7 @@
         </v-list-item>
 
         <v-card-actions>
-            <v-btn outlined rounded text>
+            <v-btn outlined rounded text :to=buttonRoute>
                 {{ buttonText }}
             </v-btn>
         </v-card-actions>
@@ -38,7 +38,8 @@ export default {
         upperTag: String,
         title: String,
         subtitle: String,
-        buttonText: String
+        buttonText: String,
+        buttonRoute: String
     }
 }
 </script>
